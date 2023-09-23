@@ -1,0 +1,78 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styling to the overall container */
+  
+  /* Style the form wrapper */
+  .form-wrapper {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .cont-signup{
+background-color: rgb(38, 48, 67);
+padding-top: 20px;
+  }
+
+  /* Style headings */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style input fields */
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  /* Style select fields */
+  .select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+
+  }
+  
+  /* Style buttons */
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style error messages */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .companyname {
+    border: 1px solid #ccc;
+    width: 200px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+  }
+  

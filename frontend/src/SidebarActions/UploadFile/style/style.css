@@ -1,0 +1,143 @@
+.logs-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.FileServer button{
+  background-color: #1d2634;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.FileServer button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropzone {
+  color: black;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f2f2f2; /* Light gray background for the dropzone */
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.FileWatcher {
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.FileWatcher h1 {
+  font-size: 24px;
+}
+
+.FileWatcher label {
+  font-weight: bold;
+}
+
+.FileWatcher input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.FileWatcher button {
+  background-color: #1d2634;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.FileWatcher button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.FileWatcher p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.FileWatcher h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.FileWatcher ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.FileWatcher li {
+  margin-bottom: 5px;
+}
+
+.addedfiles{
+  padding-bottom: 20px;
+}
+
+
+
+.file-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.file-icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+
+
+.gdrive{
+  margin-bottom: 15px;
+}
+
+.gd  input{
+  margin: 0 15px;
+  width: 400px;
+}
+
+
+.gd button{
+  background-color: #1d2634;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+.gd button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+

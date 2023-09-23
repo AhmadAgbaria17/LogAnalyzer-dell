@@ -1,0 +1,39 @@
+
+
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+}
+
+/* Style the table header row */
+th {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+/* Style the table rows alternately for better readability */
+
+
+/* Style table cells (td) */
+td {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+
+
+
+/* Add hover effect to rows for interaction */
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
